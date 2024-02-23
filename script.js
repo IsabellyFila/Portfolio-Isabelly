@@ -1,11 +1,11 @@
-const turnOff = document.getElementById('ligar');
-const turnOff = document.getElementById('desligar');
 const lamp = document.getElementById('lamp');
 
 //como criar função
 
 function ligar (){
- lamp.src = 'ligada.jpg'
+ lamp.src = 'download2.jpeg'
 }
 
-turn0n.addEventListiner('click', Ligar);
+function desligar (){
+    lamp.src = 'download1.jpeg'
+   }
